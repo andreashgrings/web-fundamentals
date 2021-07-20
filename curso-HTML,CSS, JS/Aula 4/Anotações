@@ -20,7 +20,8 @@ conseguirá ver os dados que foram enviados;
 Existe um limite de tamanho de dados que podem ser enviados via URL.
 
 -Via POST:
-*Os dados são enviados de forma sigilosa, imagine que eles são enviados por meio da porta dos fundos do backend
+*Os dados são enviados de forma sigilosa, imagine que eles são enviados por meio da porta dos fundos 
+do backend.
 
 Prós:
 *São enviados de forma segura;
