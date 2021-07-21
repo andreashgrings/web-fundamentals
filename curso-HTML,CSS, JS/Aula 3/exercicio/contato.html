@@ -8,9 +8,39 @@
 </head>
 <body>
     <h1>Contato</h1>
-
-    <a href="exercicio.html"><img src="img/casa.jpg" alt="Home" width="100"></a>
-
-    
+    <hr>
+    <form action="">
+        <label>
+        Nome: <input type="text" name="nome" placeholder="Digite seu nome" required maxlength="40">
+        </label>
+        <br>
+        <label>
+        E-mail: <input type="email" name="email" placeholder="Digite seu e-mail" required maxlength="100">
+        </label>
+        <br>
+        <label>
+        Estado: <select name="estado">
+            <option>Selecione</option>
+            <option value="ES">Espírito Santo</option>
+            <option value="MS">Mato Grosso do Sul</option>
+            <option value="PA">Pará</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="RS">Rio Grande do Sul</option>        
+        </select>
+        </label>
+        <br>
+        <label>
+        Telefone: <input type="number" name="telefone" placeholder="Digite seu telefone" maxlength="15">
+        </label>
+        <br>
+        <label>
+        Sobre você: <textarea name="sms" maxlength="200" required placeholder="Sobre você"></textarea>    
+        </label>
+        <br>
+        <button type="sumbit">ENVIAR</button>
+        <button type="reset">LIMPAR</button>
+    </form>
+    <hr>
+    <a href="exercicio.html"><img src="img/casa.jpg" alt="Home" width="100"></a>    
 </body>
 </html>
