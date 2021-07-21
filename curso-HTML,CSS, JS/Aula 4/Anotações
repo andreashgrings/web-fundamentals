@@ -8,8 +8,7 @@ o envio destes dados pode ser feito de duas formas (métodos);
 *Os dados são enviados de forma exposta via URL do navegador como variáveis para o backend; 
 *Logo, não é usado para envio de dados sensíveis (ex.: número do cartão de crédito, senhas, etc.).
 
-Ex.: C:\Users\felip\Documents\web-fundamentals\curso-HTML,CSS, JS\Aula 4\Formulário 1.html
-
+Ex.: file:///C:/Users/felip/Documents/web-fundamentals/curso-HTML,CSS,%20JS/Aula%204/Formul%C3%A1rio%201.html?Nome=&endereco=&cidade=EST&senha=&descricao=
 Prós:
 *os dados ficam salvos no histórico do navegador;
 *É possível compartilhar a URL com os dados de outras pessoas.

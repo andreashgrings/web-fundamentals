@@ -8,22 +8,25 @@
 </head>
 <body>
 
-    <form action="" method="POST">
+    <form action="" method="GET">
         <input type="text" name="Nome" placeholder="Digite seu nome">
         <br>
         <input type="text" name="endereco" placeholder="Digite o seu endereço">
         <br>
+        <!-- option: cada option ´r uma opção, sendo que podemos add um atributo 
+            cahamado value o qual serve para mascarar a opção mostrada, ou seja, o cliente 
+            visualiza uma informação mas o que é enviado é o que está dentro deste atributo -->
         <select name="cidade">
             <option>Selecione</option>
-            <option>Alvorada</option>
-            <option>Canoas</option>
-            <option>Esteio</option>
-            <option>São Leopoldo</option>
-            <option>Sapucaia</option>
+            <option value="ALV">Alvorada</option>
+            <option value="CAN">Canoas</option>
+            <option value="EST" selected>Esteio</option>
+            <option value="São Léo">São Leopoldo</option>
+            <option value="Sap">Sapucaia</option>
         </select>
         <br>
-        <input type="text" name="cidade" placeholder="Digite a cidade">
-        <br>
+        <!-- <input type="text" name="cidade" placeholder="Digite a cidade"> -->
+        <!-- <br> -->
         <input type="password" name="senha" placeholder="Sua senha" maxlength="8">
         <br>
         <textarea name="descricao" maxlength="146" placeholder="Sobre você"></textarea>
