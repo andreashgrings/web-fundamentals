@@ -1,0 +1,32 @@
+ /* comentário em CSS */
+
+ body {
+    background: rgba(145, 202, 236, 0.726);
+}
+
+h1 {
+    color: white;
+    background: cadetblue;
+    font-family: Arial;
+} 
+p {
+    color: rgb(128, 0, 128);
+}  
+
+h1 {
+    color: red;
+}
+
+/* seletor por id (#) */
+#cidade {
+    color: red;
+}
+
+.destaque {
+    background: green;
+}
+/* seletores por hierarquia facilita a formatação sem precisar de class ou id */
+/* contra: fica fortemente vinculado ao HTML */
+p a {
+    color: black;
+}
