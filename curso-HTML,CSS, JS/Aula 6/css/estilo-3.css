@@ -10,23 +10,24 @@ h1 {
     font-family: Arial;
 } 
 p {
-    color: rgb(128, 0, 128);
+    color: rgb(15, 157, 175);
 }  
 
-h1 {
-    color: red;
+h2 {
+    color: #0F03FC;
+
 }
 
 /* seletor por id (#) */
 #cidade {
-    color: red;
+    color: #0F03FC;
 }
 
 .destaque {
-    background: green;
+    background: #DEE5FF;
 }
 /* seletores por hierarquia facilita a formatação sem precisar de class ou id */
 /* contra: fica fortemente vinculado ao HTML */
 p a {
-    color: black;
+    color: rgb(23, 195, 218);
 }
