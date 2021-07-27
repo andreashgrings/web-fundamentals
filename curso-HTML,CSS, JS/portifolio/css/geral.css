@@ -1,0 +1,11 @@
+/* Neste arquivo estão todas as definições gerais */
+body {
+    background: #3B3D5D;
+    /* removemos para evitar que o conteúdo comece afastado das "paredes" do browser */
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background:#1F2235;
+    height: 110px;
+}

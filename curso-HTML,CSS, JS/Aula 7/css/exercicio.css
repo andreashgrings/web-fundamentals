@@ -1,13 +1,10 @@
 #titulo {
     background: orange;
-    color: white
+    color: white;
 }
-
-
 #sub-titulo{
     color: red
 }
-
 .tipo{
     color: blue;
 } 
