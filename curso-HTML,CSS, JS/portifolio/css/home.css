@@ -1,0 +1,12 @@
+aside {
+    border: 1px solid pink;
+    min-height: 300px;
+    float: left;
+}
+aside:first-child {
+    width: 600px;
+}
+aside:last-child {
+    width: 500px;
+    float: right;
+}
