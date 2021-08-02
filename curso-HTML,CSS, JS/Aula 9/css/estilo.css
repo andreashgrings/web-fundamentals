@@ -1,0 +1,29 @@
+body {
+    background-color: pink;    
+}
+.container {
+    border: 2px solid red;
+    width:  640px;
+    height:  480px;
+    align-content: center;
+
+}
+.linha-pequena {
+    height: 30px;
+    width: 400px;
+    border: solid blue;
+    align-content: center;
+    margin: 20px auto;
+}
+.linha-grande {
+    width: 600px;
+    height: 30px;
+    border: dotted white;
+    margin: 20px auto;
+}
+.linha-pequena:hover {
+    border: solid red;
+} 
+.linha-grande:hover {
+    border: dotted red
+}
