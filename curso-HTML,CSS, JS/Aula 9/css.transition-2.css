@@ -1,0 +1,11 @@
+div { 
+    border: 2px solid orange;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    transition: rotate 2s, translate;
+}
+div:hover {
+    transform: rotate(90deg);
+    transform: translate(600px);
+}

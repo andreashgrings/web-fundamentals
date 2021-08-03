@@ -1,0 +1,17 @@
+div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+}
+#tr-1 {
+    /* Skew transformação 2d que estica/inclina o elemento, os valores do eixo podem ser: X e Y  */
+    transform: skew(30deg, 10deg);
+align-items: center;}
+#tr-2 {
+    /* rotaciona o elemento*/
+    transform: rotate(30deg);
+}
+#tr-3 {
+    /*  */
+    transform: scale(0.2);
+}

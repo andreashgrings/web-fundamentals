@@ -1,0 +1,14 @@
+div {
+    border: 3px solid purple;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    transition: border 2s, background 2s;
+}
+div:hover {
+    /* background: purple;  */
+    border: 6px dotted orange;
+    /* transition: background 1s; */
+    /* podemos "escutar" uma ou mais propriedades separando-as por vírgula, quando necessário */
+    transition: border 2s, /*background 10s;*/
+}
