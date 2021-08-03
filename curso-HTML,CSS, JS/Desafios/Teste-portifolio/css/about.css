@@ -9,6 +9,12 @@ body {
     background-color: black;     
     width: 100vw;
 }
+div a {
+    text-decoration: none;
+}
+div a:visited {
+    color: white;
+}
 .main {
     background-image: url("../img/background4.jpeg");
     background-position: center;
@@ -22,7 +28,7 @@ body {
 .main header {
     display: flex;
     background-color: #252A2E;
-    width: 110vw;
+    width: 100vw;
     justify-content: space-between; 
     padding: 0 20px;
 }
@@ -42,19 +48,32 @@ body {
     /* background: blue;  */
     justify-content: space-evenly;
 }
-div a {
-    text-decoration: none;
+.main .about {
+    background: red;
+    text-align: center;
 }
-div a::marker {
-    color: blue;
-}
-.about {
-    background-color: blue;
-    display: flex;
-    justify-content: center;
-    width: 100vw;
-    height: 100vh;
+.main .personal {
+    background: chartreuse;
+    margin: 20px;
+    display: inline-block;
 }
 .main .details {
-    justify-content: left;
+    background: blue;
+    /* text-align: center; */
+    margin: 20px;
+}
+.main .data {
+    background: chocolate; 
+    /* display: block; */
+    margin-right: 10px; 
+    margin-left: 20px;
+    font-size: 12px;
+}
+.main .information {
+    background: crimson; 
+    font-size: 12px;
+}
+.main .interest {
+    background: seagreen;
+    display: inline-block; 
 }
