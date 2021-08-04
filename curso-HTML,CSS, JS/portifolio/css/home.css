@@ -5,7 +5,7 @@ p {
     font-size: 18px;
 }
 .polaroid {
-    width: 70%;
+    width: 60%;
     padding: 10px 10px 80px 10px;
     background: #FFFFFF;    
     transition: box-shadow 1s, transform 1s;

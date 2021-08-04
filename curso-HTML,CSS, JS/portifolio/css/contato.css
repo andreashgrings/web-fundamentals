@@ -1,6 +1,41 @@
 .map {
     width: 410px;
     height: 300px;
-    border: 10px solid red;
+    /* border: 10px solid red; */
     border-radius: 5%;    
 }
+.txt { 
+    width: 600px;
+    height: 42px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background: #3B3D5D;
+    display: inline-block;
+    padding: 5px;
+    color: white;
+}
+.txt-2{
+    width: 600px;
+    height: 84px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background: #3B3D5D;
+    display: inline-block;
+    padding: 5px;
+    color: white;
+    font-size: 12px;
+}
+ button { 
+    width: 70px;
+    height: 45px;
+    border-radius: 10px;
+    background: #3B3D5D;
+    border: 1px solid white;
+    float: right;
+    color: white;
+    text-align: center; 
+}
+.txt::placeholder, .txt-2::placeholder {
+    color: white;
+}
+

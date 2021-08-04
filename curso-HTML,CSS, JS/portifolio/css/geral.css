@@ -51,8 +51,34 @@ section {
     width: 1170px;
     margin: 80px auto 0 auto ;
 }
-.portfolio {
-    height: 638px;
-    width: 638px;
+aside {
+    /* border: 1px solid pink; */
+    min-height: 300px;
+    display: inline-block;
+    vertical-align:  top;
 }
+aside:first-child {
+    width: 600px;
+}
+aside:last-child {
+    width: 500px;
+    margin-left: 60px;
+}
+.redes-sociais {
+    margin-top: 100px;
+}
+.redes-sociais a {
+    border: 1px solid #FF4A57;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin-right: 30px;
+    border-radius: 50%;
+    transition: background 1s;
+
+}
+.redes-sociais a:hover {
+    background:#FF4A57 ;
+}
+
 
