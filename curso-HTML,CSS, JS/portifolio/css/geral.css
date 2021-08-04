@@ -1,10 +1,14 @@
+@font-face {
+    font-family: Popins;
+    src: url(../Fontes/Poppins-Regular.ttf) format("truetype");
+}
 /* Neste arquivo estão todas as definições gerais */
 body {
     background: #3B3D5D;
     /* removemos para evitar que o conteúdo comece afastado das "paredes" do browser */
     margin: 0;
     padding: 0;
-    font-family: Arial;
+    font-family: Popins;
     color: white;
 }
 header {
@@ -47,3 +51,8 @@ section {
     width: 1170px;
     margin: 80px auto 0 auto ;
 }
+.portfolio {
+    height: 638px;
+    width: 638px;
+}
+

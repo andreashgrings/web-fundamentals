@@ -1,0 +1,16 @@
+.caixa {
+    height: 300px;
+    width: 300px;
+    border: 2px solid orange;
+    /*                eixo x  eixo y   dist lâmpada  intensidade lâmpada*/
+    box-shadow: inset  4px    4px      4px           4px red,
+                inset 8px     8px      10px          10px blue;
+                border-radius: 50%;
+                transition: box-shadow;
+}
+.titulo {
+    font-family: arial;
+    font-size: 30px;
+    color: #0096D6;
+    text-shadow: 8px 8px 4px #999999;
+}
