@@ -13,6 +13,7 @@
     display: inline-block;
     padding: 5px;
     color: white;
+    font-family: Poppins;
 }
 .txt-2{
     width: 600px;
@@ -23,7 +24,7 @@
     display: inline-block;
     padding: 5px;
     color: white;
-    font-size: 12px;
+    font-family: Poppins;
 }
  button { 
     width: 70px;
@@ -34,6 +35,7 @@
     float: right;
     color: white;
     text-align: center; 
+    font-family: Poppins;
 }
 .txt::placeholder, .txt-2::placeholder {
     color: white;
