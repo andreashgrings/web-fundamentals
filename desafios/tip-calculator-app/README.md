@@ -1,6 +1,6 @@
 1. # Tip calculator app
 
-   ![Design preview for the Tip calculator app coding challenge](/home/felipe/Desktop/tip-calculator-app-main/design/desktop-preview.jpg)
+   ![Design preview for the Tip calculator app coding challenge](./design/desktop-preview.jpg)
 
    ## Welcome! 👋
 
