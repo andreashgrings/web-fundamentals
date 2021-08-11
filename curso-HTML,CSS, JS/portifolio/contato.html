@@ -19,10 +19,11 @@
     </header>
     <section>
         <aside>
-            <form>            
-            <p><input type="text" class="txt" placeholder="Digite seu nome" required></p>
-            <p><input type="email" class="txt" placeholder="Digite seu e-mail" required></p>
-            <p><textarea name="txt2" class="txt-2" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea></p>
+            <!-- nesse caso especificamente, precisamos colocar o return antes da chamada da função para que o formulário pergunte para a function se deve ou não prosseguir com o envio dos dados  -->
+            <form action="" onsubmit="return validaForm()">            
+            <p><input type="text" id="nome" placeholder="Digite seu nome"></p>
+            <p><input type="email" id="email" placeholder="Digite seu e-mail"></p>
+            <p><textarea name="txt2" class="txt-2" cols="30" rows="10" placeholder="Digite sua mensagem"></textarea></p>
             <p><button type="submit">ENVIAR</button></p>
             </form>
         </aside>
@@ -31,5 +32,6 @@
             allowfullscreen="" loading="lazy"></iframe>
         </aside>
     </section>
+    <script src="js/contato.js"></script>
 </body>
 </html>

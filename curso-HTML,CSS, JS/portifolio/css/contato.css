@@ -4,30 +4,48 @@
     /* border: 10px solid red; */
     border-radius: 5%;    
 }
-.txt { 
+#nome { 
     width: 600px;
     height: 42px;
     border: 1px solid white;
     border-radius: 10px;
-    background: #3B3D5D;
+    /* background: #bfc0ca; */
     display: inline-block;
     padding: 5px;
     color: white;
     font-family: Poppins;
+    background: transparent;
+    outline: none;
+}
+#email { 
+    width: 600px;
+    height: 42px;
+    border: 1px solid white;
+    border-radius: 10px;
+    /* background: #bfc0ca; */
+    display: inline-block;
+    padding: 5px;
+    color: white;
+    font-family: Poppins;
+    background: transparent;
+    outline: none;
 }
 .txt-2{
     width: 600px;
     height: 84px;
     border: 1px solid white;
     border-radius: 10px;
-    background: #3B3D5D;
+    /* background: #3B3D5D; */
     display: inline-block;
     padding: 5px;
     color: white;
     font-family: Poppins;
+    background: transparent;
+    resize: none;
+    outline: none;
 }
  button { 
-    width: 70px;
+    width: auto;
     height: 45px;
     border-radius: 10px;
     background: #3B3D5D;
@@ -37,7 +55,7 @@
     text-align: center; 
     font-family: Poppins;
 }
-.txt::placeholder, .txt-2::placeholder {
+::placeholder {
     color: white;
 }
 

@@ -1,7 +1,7 @@
 var x;
 var y; 
 var z
-var media = (x + y +z)/3; 
+
 alert ('Coloque as suas notas para saber a média')
 
 
@@ -13,6 +13,8 @@ y= eval (y);
 
 z= prompt ('Informe a terceira nota');
 z= eval (z);
+
+var media = (x + y +z)/3; 
 
 
 if (media >= 7 ) 
