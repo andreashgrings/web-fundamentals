@@ -19,12 +19,12 @@
     </header>
     <section>
         <aside>
-            <!-- nesse caso especificamente, precisamos colocar o return antes da chamada da função para que o formulário pergunte para a function se deve ou não prosseguir com o envio dos dados  -->
-            <form action="" onsubmit="return validaForm()">            
+            <form onsubmit="return validaForm()">            
             <p><input type="text" id="nome" placeholder="Digite seu nome"></p>
-            <p><input type="email" id="email" placeholder="Digite seu e-mail"></p>
-            <p><textarea name="txt2" class="txt-2" cols="30" rows="10" placeholder="Digite sua mensagem"></textarea></p>
+            <p><input type="text" id="email" placeholder="Digite seu e-mail"></p>
+            <textarea name="txt2" id="txt" placeholder="Digite sua mensagem"></textarea>
             <p><button type="submit">ENVIAR</button></p>
+            <p id="aval"></p>
             </form>
         </aside>
         <aside>

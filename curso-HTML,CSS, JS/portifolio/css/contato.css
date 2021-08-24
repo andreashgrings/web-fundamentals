@@ -30,7 +30,7 @@
     background: transparent;
     outline: none;
 }
-.txt-2{
+#txt{
     width: 600px;
     height: 84px;
     border: 1px solid white;
@@ -58,4 +58,12 @@
 ::placeholder {
     color: white;
 }
-
+#aval {
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 10px;
+}
+.campoErro {
+    border: 1px dashed red!important;
+    background: rgba(255, 255, 255, 0.5)!important;
+}

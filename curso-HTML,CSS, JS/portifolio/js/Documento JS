@@ -1,0 +1,23 @@
+function validaForm() {
+    var nome= document.getElementById('nome');
+    if (nome.value == '') {
+        aval.innerHTML ='Preencha o nome';
+        // msg.style.fontStyle.italic(nome);
+        nome.focus();
+        return false;
+    }
+    var email= document.getElementById('email');
+    if (email.value == '') {
+        aval.innerHTML = 'Preencha o E-mail';
+        email.focus();
+        return false;
+    }
+    var msg=document.getElementById('txt');
+    if (msg.value == ''); {
+        aval.innerHTML = 'Preencha a mensagem';        
+        msg.focus();
+        // msg.style.font.bold ;
+        // msg.style.fontStyle.italic(txt);
+        return false;
+    }
+}
